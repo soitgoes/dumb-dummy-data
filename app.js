@@ -10,7 +10,7 @@ var faker = require('Faker'),
 var connection = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
-	database: 'directorpoint',
+	database: 'dummy-data',
 	password: '',
 	debug:false,
 	waitForConnections: false
